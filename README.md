@@ -16,7 +16,8 @@ A wearable system for measuring gait and motion for athletes in real time, built
 - 2× Piezoelectric modules 
 
 ## Operation
-Once powered on, the device calibrates sensors and then displays live data on the ![Oled Display](Illustrations/Oled_Display.png). Simultaneously, all readings with timestamps are logged to ![Data.CSV](Illustrations/data.csv) on the SD card. The GPS module appends location data every 1 second. The system runs on battery for ~6 hours with current firmware.
+Once powered on, the device calibrates sensors and then displays live data on the OLED screen ![Oled Display](Illustrations/Oled_Display.png). Simultaneously, All readings with timestamps are logged to a CSV file 
+![Data.CSV](Illustrations/data.csv) on the SD card. The GPS module appends location data every 1 second. The system runs on battery for ~6 hours with current firmware.
 
 ## Credits
 Project by *Your Name* (Biomedical Engineering student). Uses [Adafruit MPU6050 library], [TinyGPS++], and other open-source code (see `Code/` folder). Contributions welcome – please submit issues or pull requests.
