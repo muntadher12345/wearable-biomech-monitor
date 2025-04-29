@@ -4,7 +4,7 @@ A wearable system for measuring gait and motion for athletes in real time, built
   
 **Features:** Real-time display of motion data, GPS location logging, and power-efficient operation.
 
-![System Schematic](Schematics.png)
+![System Schematic](/Illustrations/3D_bodel.png)
 
 ## Hardware Components
 - ESP32-WROOM-32U microcontroller
