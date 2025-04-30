@@ -19,6 +19,8 @@ A wearable system for measuring gait and motion for athletes in real time, built
 - 3× MPU6050 (accelerometer/gyro) modules
 - 2× Piezoelectric modules 
 
+![m](Schematics/Circuit_Diagram.png)
+
 ## Operation
 Once powered on, the device calibrates sensors and then displays live data on the OLED screen ![Oled Display](Illustrations/Oled_Display.png)
 
