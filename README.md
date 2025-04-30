@@ -19,15 +19,17 @@ A wearable system for measuring gait and motion for athletes in real time, built
 - 3× MPU6050 (accelerometer/gyro) modules
 - 2× Piezoelectric modules 
 
+## Full Scheamtics 
+
 ![m](Schematics/Circuit_Diagram.png)
 
 ## Operation
-Once powered on, the device calibrates sensors and then displays live data on the OLED screen ![Oled Display](Illustrations/Oled_Display.png)
+**Once powered on, the device calibrates sensors and then displays live data on the OLED screen.** ![Oled Display](Illustrations/Oled_Display.png)
 
-Simultaneously, All readings with timestamps are logged to a CSV file on the SD card. ![Data.CSV](Illustrations/Data_Sample.png) on the SD card. The GPS module appends location data every 1 second. The system runs on battery for ~6 hours with current firmware.
+**Simultaneously, All readings with timestamps are logged to a CSV file on the SD card.** ![Data.CSV](Illustrations/Data_Sample.png) **The GPS module appends location data every 1 second. The system runs on battery for ~6 hours with current firmware.**
 
 ## Credits
-Project by *Your Name* (Biomedical Engineering student). Uses [Adafruit MPU6050 library], [TinyGPS++], and other open-source code (see `Code/libraries` folder). Contributions welcome – please submit issues or pull requests.
+Project by Muntadher Saeed, Ameer Sarmad, Mohamed Ali Ahmed (Biomedical Engineering students). Uses [Adafruit MPU6050 library], [TinyGPS++], and other open-source code (see `Code/libraries` folder). Contributions welcome – please submit issues or pull requests.
 
 ## License
 Licensed under MIT
