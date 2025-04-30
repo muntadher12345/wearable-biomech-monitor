@@ -41,7 +41,7 @@ The Wearable Biomechanical Monitor is a sophisticated system designed to capture
 **Simultaneously, All readings with timestamps are logged to a CSV file on the SD card.** ![Data.CSV](Illustrations/Data_Sample.png) **The GPS module appends location data every 1 second. The system runs on battery for ~6 hours with current firmware.**
 
 ## Credits
-Project by Muntadher Saeed, Ameer Sarmad, Mohamed Ali Ahmed (Biomedical Engineering students). Uses [Adafruit MPU6050 library], [TinyGPS++], and other open-source code (see `Code/libraries` folder). Contributions welcome – please submit issues or pull requests.
+Project by Muntadher Saeed, Ameer Sarmad, Mohamed Ali Ahmed (Biomedical Engineering students at University Of Technology-Iraq). Uses [Adafruit MPU6050 library], [TinyGPS++], and other open-source code (see `Code/libraries` folder). Contributions welcome – please submit issues or pull requests.
 
 ## License
 Licensed under MIT
