@@ -1,7 +1,7 @@
 # Wearable Biomechanics Monitor
 
 The Wearable Biomechanical Monitor is a sophisticated system designed to capture and analyze human movement data in real-time. By integrating multiple sensors and modules, it offers comprehensive insights into biomechanical activities.​
-
+![f](/Illustrations/3D_model.png)
 **Key Features:**
 
 - Multi-IMU Integration: Utilizes three MPU6050 sensors positioned on different body parts (e.g., right leg, left leg, chest) to capture detailed motion data.​
