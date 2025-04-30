@@ -1,10 +1,22 @@
 # Wearable Biomechanics Monitor
 
-A wearable system for measuring gait and motion for athletes in real time, built with an ESP32 microcontroller.  
-  
-**Features:** Real-time display of motion data, GPS location logging, and power-efficient operation.
+The Wearable Biomechanical Monitor is a sophisticated system designed to capture and analyze human movement data in real-time. By integrating multiple sensors and modules, it offers comprehensive insights into biomechanical activities.​
 
-![System Schematic](/Illustrations/3D_model.png)
+**Key Features:**
+
+- Multi-IMU Integration: Utilizes three MPU6050 sensors positioned on different body parts (e.g., right leg, left leg, chest) to capture detailed motion data.​
+- GPS Tracking: Employs a GPS module to record location, speed, and distance traveled, enhancing the context of movement data.​
+-  Step Detection: Incorporates piezoelectric sensors to detect and categorize steps (normal or strong) for both feet, providing granular activity metrics.​
+-  Data Logging: Stores collected data on an SD card in CSV format, facilitating post-analysis and long-term monitoring.​
+-  Real-Time Display: Features an SH110X-based OLED display to present real-time statistics, including time elapsed, speed, distance, and step count.​
+-  Calibration and Filtering: Applies calibration offsets and filtering techniques to ensure data accuracy and reliability.​
+
+**Applications:**
+
+ - Sports Science: Monitor athletes' movements to optimize performance and prevent injuries.​
+ - Rehabilitation: Track patients' progress during physical therapy sessions.​
+ - Research: Collect data for studies in human biomechanics and movement analysis.​
+ - Personal Fitness: Provide users with detailed insights into their physical activities.
 
 ## Hardware Components & Wiring
 **Chest&Arm Wiring** ![Wiring](Schematics/main_board&oled-wiring-FRONT.jpg)
